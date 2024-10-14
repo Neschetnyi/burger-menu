@@ -1,0 +1,152 @@
+.border {
+  border: 1px black solid;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  
+}
+
+.burger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 320px;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.burger-menu_shadow {
+  box-shadow: -50px 0 50px 60px #ceced4;
+}
+
+.header-burger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin-top: 18px;
+  margin-bottom: 46px;
+  padding-left: 26px;
+  padding-right: 10px;
+}
+
+.burger-menu__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.header-burger__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 160px;
+}
+
+.burger-menu__button {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  margin-right: 16px;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.burger-menu__button:hover {
+  opacity: 50%;
+}
+
+.nav-burger {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-burger__a {
+  display: flex;
+  text-decoration: none;
+  white-space: nowrap;
+  font-family: 'TTLakes';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1rem;
+  color: #1B1C21;
+  margin-bottom: 26px;
+  margin: 0;
+  margin-bottom: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 26px;
+  vertical-align: middle;
+  transition: 0.4s;
+}
+
+.nav-burger__a:hover {
+  color: #7E7E82;
+}
+
+.nav-burger__a_activ {
+  background: url("../ic/highlight.svg") 0 50% no-repeat;
+  color: #7E7E82;
+}
+
+.bottom-burger {
+  padding-bottom: 39px;
+  padding-left: 26px;
+}
+
+.container-bottom-burger {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 22px;
+  margin-left: 0;
+}
+
+.contacts__mail {
+  display: block;
+  text-decoration: none;
+  white-space: nowrap;
+  font-family: 'TTLakes';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1rem;
+  color: #1B1C21;
+  margin-bottom: 26px;
+}
+
+.contacts__tel {
+  display: block;
+  text-decoration: none;
+  white-space: nowrap;
+  font-family: 'TTLakes';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #1B1C21;
+  margin-bottom: 54px;
+}
+
+.language__lang {
+  text-decoration: none;
+  white-space: nowrap;
+  font-family: 'TTLakes';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1rem;
+  color: #1B1C21;
+  transition: 0.4s;
+}
+
+.language__lang_active {
+  color: #7E7E82;
+}
+
+.language__lang:hover {
+  color: #7E7E82;
+}
